@@ -313,7 +313,6 @@ body::before {
     border: none;
     background: #214b9a;
     border-radius: 999px;
-    color: white;
     padding: 1rem 2rem;
     font-size: 1rem;
     cursor: pointer;
@@ -332,6 +331,14 @@ body::before {
 .button-row button {
     min-width: 10rem;
     width: min(100%, 15rem);
+    color: black;
+}
+
+.book-nav .secondary-btn {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.55));
+    color: #1f1f20;
+    font-weight: 700;
+    box-shadow: 0 18px 30px rgba(10, 25, 61, 0.25);
 }
 
 .primary-btn {
